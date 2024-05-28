@@ -1,0 +1,95 @@
+/* General styling with gradient background */
+body {
+    font-family: Arial, sans-serif; /* Font modern */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Gradient de sus în jos */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling pentru container */
+.container {
+    width: 350px; /* Lățime de 350px */
+    height: 450px; /* Înălțime de 450px */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundal semi-transparent */
+    border-radius: 20px; /* Colțuri rotunjite */
+    padding: 20px; /* Padding intern */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Umbră pentru profunzime */
+    text-align: center; /* Aliniere centrală */
+    transition: all 0.3s; /* Tranziție pentru animații */
+}
+
+/* Hover effect pentru container */
+.container:hover {
+    transform: translateY(-5px); /* Mișcare la hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Umbră mai accentuată */
+}
+
+/* Styling pentru titluri */
+header {
+    text-align: center;
+    color: #333; /* Text închis */
+    padding-bottom: 10px; /* Spațiu sub header */
+}
+
+.contact-info {
+    text-align: left; /* Aliniere la stânga */
+    font-size: 0.9em; /* Font mai mic pentru a încăpea în container */
+}
+
+/* Aliniere la stânga pentru secțiunile de contact */
+.contact-info h2 {
+    font-size: 1em; /* Font pentru titluri */
+    text-align: center; /* Aliniere centrală */
+}
+
+.contact-info p {
+    font-size: 0.9em; /* Font pentru paragrafe */
+    margin-bottom: 10px; /* Spațiu sub paragrafe */
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 1.2em; /* Font pentru titluri */
+    margin-bottom: 15px; /* Spațiu sub titlu */
+}
+
+/*.contact-form {
+    margin-top: 20px; /* Spațiu deasupra formularului */
+
+
+form {
+    display: flex;
+    flex-direction: column; /* Layout în coloane */
+}
+
+form div {
+    margin-bottom: 10px; /* Spațiu între elementele formularului */
+}
+
+/* Styling pentru inputuri și text area */
+input,
+textarea {
+    padding: 10px; /* Padding intern */
+    border-radius: 5px; /* Colțuri rotunjite */
+    border: 1px solid #ccc; /* Margine ușoară */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionarea verticală */
+}
+
+/* Styling pentru butonul de trimitere */
+button {
+    align-self: center; /* Aliniere centrală */
+    padding: 10px 20px; /* Padding pentru buton */
+    background-color: #3498db; /* Fundal albastru */
+    color: white; /* Text alb */
+    border: none; /* Fără margine */
+    border-radius: 5px; /* Colțuri rotunjite */
+    transition: background-color 0.3s; /* Tranziție pentru animații */
+}
+
+/* Efect la hover pentru butonul de trimitere */
+button:hover {
+    background-color: #2980b9; /* Albastru mai închis la hover */
+}

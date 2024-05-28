@@ -1,0 +1,31 @@
+/* General styling for the whole body */
+body {
+    font-family: Arial, sans-serif; /* Font de bază */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fundal deschis */
+}
+
+/* Buton fix în partea dreaptă jos */
+#addToFavorites {
+    position: fixed; /* Poziționare fixă */
+    bottom: 45px; /* Poziționat la 20px de partea de jos a ecranului */
+    right: 430px; /* Poziționat la 20px de partea dreaptă a ecranului */
+    background: none; /* Fără fundal */
+    border: none; /* Fără margine */
+    cursor: pointer; /* Cursor pointer pentru interacțiune */
+    padding: 10px; /* Padding pentru buton */
+    transition: transform 0.3s; /* Tranziție pentru efecte de animație */
+    
+}
+
+/* Animație la hover pentru buton */
+#addToFavorites:hover {
+    transform: scale(1.1); /* Mărire la hover */
+}
+
+/* Dimensiunea imaginii de pe buton */
+#favIcon {
+    width: 32px; /* Dimensiune mărită */
+    height: 32px; /* Dimensiune mărită */
+}

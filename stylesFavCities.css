@@ -1,0 +1,21 @@
+/* Stilizare pentru lista de orașe favorite */
+#favoritesList ul {
+    list-style-type: none; /* Fără marcatori */
+    padding: 0; /* Fără padding */
+    margin: 0; /* Fără margini */
+}
+
+#favoritesList ul li {
+    padding: 10px; /* Padding intern */
+    margin-bottom: 10px; /* Spațiu între elemente */
+    background-color: #e3f2fd; /* Fundal albastru deschis */
+    border-radius: 5px; /* Colțuri rotunjite */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră pentru profunzime */
+    color: #333; /* Text închis */
+}
+
+/* Efect la hover pentru elementele din lista de orașe */
+#favoritesList ul li:hover {
+    background-color: #bbdefb; /* Fundal albastru mai închis la hover */
+    transition: background-color 0.3s; /* Tranziție pentru animații */
+}

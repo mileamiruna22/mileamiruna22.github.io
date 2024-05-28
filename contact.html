@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkyTracker</title>
+    <link rel="stylesheet" href="stylesMenu.css"> 
+    <link rel="stylesheet" href="stylesContact.css"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="loadContent.js"></script> 
+    <script src="submit.js"></script> 
+    
+</head>
+<body>
+    <div id="menu-placeholder"></div> 
+    <div class="container">
+
+    <section id="contact">
+
+        <header>
+            <h1>Contact Us</h1> 
+            <p>We're here to help with any questions about our weather app.</p> 
+        </header>
+       
+        <!--<div class="contact-info">
+            <h2>Contact Information</h2> <!-- Title for contact info -->
+            <!--<p>Phone: +40 123 456 789</p> <!-- Phone number -->
+            <!--<p>Email: contact@SkyTracker.com</p> <!-- Email address -->
+            <!--<p>Address: 123 ABC Street, Bucharest, Romania</p> <!-- Physical address -->
+        <!--</div>-->
+
+        <!-- Section with contact form -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2> <!-- Title for the contact form -->
+            <form id="contact-form"> 
+                <div>
+                    <label for="name">Name:</label> <!-- Label for name field -->
+                    <input type="text" id="name" name="name" required> <!-- Input for name -->
+                </div>
+                <div>
+                    <label for="email">Email:</label> <!-- Label for email field -->
+                    <input type="email" id="email" name="email" required> <!-- Input for email -->
+                </div>
+                <div>
+                    <label for="message">Message:</label> <!-- Label for message field -->
+                    <textarea id="message" name="message" rows="5" required></textarea> <!-- Text area for message -->
+                </div>
+                <button type="submit">Send</button> <!-- Submit button -->
+            </form>
+        </div>
+    </section>
+    </div>
+
+</body>
+</html>

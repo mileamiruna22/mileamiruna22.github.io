@@ -1,0 +1,15 @@
+/* Styling pentru butonul de ștergere cu poziționare în colțul din dreapta jos */
+.clear-button {
+    position: fixed; /* Poziționare fixă */
+    bottom: 60px; /* Poziționat la 20px de partea de jos a ecranului */
+    right: 430px; /* 20px de la marginea din dreapta */
+    padding: 10px; /* Padding */
+    color: rgb(255, 255, 255); /* Text alb */
+    border: none; /* Fără margine */
+    border-radius: 50%; /* Formă rotundă */
+    cursor: pointer; /* Cursor pointer */
+    transition: background-color 0.3s; /* Tranziție la hover */
+
+}
+
+

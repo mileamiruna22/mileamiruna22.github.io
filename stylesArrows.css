@@ -1,0 +1,29 @@
+/* Stilizare pentru zona de navigare */
+.navigation {
+    display: flex; /* Flex layout */
+    justify-content: space-between; /* Spațiere între elemente */
+    align-items: center; /* Centrare pe verticală */
+    margin-bottom: 20px; /* Spațiu sub navigare */
+}
+
+/* Stilizare pentru butoanele de navigare */
+.nav-button {
+    padding: 10px 15px; /* Padding */
+    border: none; /* Fără margine */
+    border-radius: 5px; /* Colțuri rotunjite */
+    background-color: #3498db; /* Fundal albastru */
+    color: white; /* Text alb */
+    cursor: pointer; /* Cursor pointer */
+    transition: background-color 0.3s; /* Tranziție pentru efectul de hover */
+    
+}
+
+/* Efect la hover pentru butoane */
+.nav-button:hover {
+    background-color: #2980b9; /* Albastru mai închis la hover */
+}
+
+.nav-button img{
+    width: 16px; 
+    height: 16px;
+}

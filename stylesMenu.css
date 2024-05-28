@@ -1,0 +1,49 @@
+/* Stilizare pentru bara de navigare pe toată lățimea ecranului */
+nav {
+    width: 100vw; /* Asigură că ocupă întreaga lățime a viewport-ului */
+    background-color: #3498db; /* Fundal albastru */
+    padding: 10px 20px; /* Padding pentru spațiu intern */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Umbră pentru profunzime */
+    position: relative; /* Poziționare relativă */
+    z-index: 1000; /* Pentru a rămâne deasupra altor elemente */
+    padding-right: 50px;
+}
+
+/* Asigură că elementele de pe pagină nu sunt afectate de marginile implicite */
+body {
+    margin: 0; /* Fără margini */
+    padding: 0; /* Fără padding */
+}
+
+/* Stilizare pentru containerul meniului */
+.menu-container {
+    display: flex; /* Layout flex pentru aliniere */
+    justify-content: flex-end; /* Aliniere la dreapta */
+    align-items: center; /* Centrare pe verticală */
+}
+
+/* Stilizare pentru lista din bara de navigare */
+nav ul {
+    list-style: none; /* Fără marcatori */
+    margin: 0; /* Fără margini */
+    padding: 0; /* Fără padding */
+}
+
+/* Stilizare pentru elementele din listă */
+nav ul li {
+    display: inline-block; /* Aliniere pe linie */
+    margin-right: 15px; /* Spațiu între elemente */
+}
+
+/* Stilizare pentru linkurile din bara de navigare */
+nav ul li a {
+    text-decoration: none; /* Fără subliniere */
+    color: white; /* Text alb */
+    font-weight: bold; /* Font îngroșat */
+    transition: color 0.3s; /* Tranziție pentru efectul de hover */
+}
+
+/* Efect la hover pentru linkuri */
+nav ul li a:hover {
+    color: #ecf0f1; /* Culoare mai deschisă la hover */
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkyTracker</title>
+    <link rel="stylesheet" href="stylesMenu.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesAddToFavButton.css">
+    <link rel="stylesheet" href="stylesArrows.css"> <!-- CSS pentru săgeți -->
+    <!--<link rel="stylesheet" href="weather-icons-wind.css"> CSS pentru căsuța de căutare -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <script src="loadContent.js"></script> 
+    <script src="ShowWeatherDetails.js"></script>
+    
+</head>
+<body>
+    <div id="menu-placeholder"></div> <!-- Asigură-te că acest element există -->
+    <div class="container">
+        <h1>SkyTracker</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter city name...">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <!-- Zona de navigare între previziuni -->
+        <div class="navigation">
+            <button id="prevDay" class="nav-button">
+                <img src="arrowL.png" alt="Previous Day"  />
+            </button>
+            <span id="currentDate"></span> <!-- Afișează data curentă -->
+            <button id="nextDay" class="nav-button"> 
+                <img src="arrowR.png" alt="Previous Day"  />
+            </button>
+        </div>
+         
+        <div class="weather-icon weather-icon-custom"></div>
+        <div class="weather-info" id="weatherForecast"></div> <!-- Asigură-te că există -->
+        <button id="addToFavorites" class="fav-button">
+            <img id="favIcon" src="fav.png" alt="Add to Favorites" width="24" height="24">
+        </button>
+    </div>
+</body>
+</html>

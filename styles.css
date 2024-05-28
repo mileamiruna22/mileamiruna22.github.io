@@ -1,0 +1,97 @@
+/* General styling with gradient background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Font modern */
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Gradient deschis */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flex layout */
+    flex-direction: column; /* Column layout */
+    justify-content: flex-start; /* Aliniere de sus */
+    align-items: center; /* Centrare orizontală */
+    overflow: hidden;
+}
+
+/* Container styling with animations */
+.container {
+    width: 350px; /* Lățime mai mică */
+    height: 450px; /* Înălțime redusă */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundal semi-transparent */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Umbră */
+    border-radius: 20px; /* Colțuri rotunjite */
+    padding: 20px; /* Padding */
+    text-align: center; /* Aliniere centrală */
+    margin-top: 20px; /* Spațiu sub bara de navigare */
+    transition: all 0.3s; /* Tranziție pentru animații */
+}
+
+/* Animație la hover pentru container */
+.container:hover {
+    /*transform: translateY(-10px);  Mișcare la hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Umbră mai accentuată */
+}
+
+/* Title styling */
+h1 {
+    font-size: 1.8em; /* Dimensiune titlu */
+    color: #333; /* Text închis */
+    margin-bottom: 20px; /* Spațiu sub titlu */
+}
+
+/* Search box styling */
+.search-box {
+    display: flex; /* Layout flex */
+    justify-content: center; /* Centrare orizontală */
+    align-items: center;
+    margin-bottom: 20px; /* Spațiu sub bara de căutare */
+}
+
+.search-box input {
+    flex: 1; /* Umplere spațiu */
+    padding: 10px; /* Padding */
+    border: none; /* Fără margine */
+    border-radius: 10px 0 0 10px; /* Colțuri rotunjite */
+    background-color: #f0f0f0; /* Fundal deschis */
+    color: #333; /* Text închis */
+    outline: none; /* Fără contur */
+    /*transition: background-color 0.3s; /* Tranziție pentru animații */
+}
+
+.search-box input:hover {
+    background-color: #e0e0e0; /* Fundal mai închis la hover */
+}
+
+.search-box button {
+    padding: 10px 15px; /* Padding pentru buton */
+    border: none; /* Fără margine */
+    border-radius: 0 10px 10px 0; /* Colțuri rotunjite */
+    background-color: #3498db; /* Albastru */
+    color: white; /* Text alb */
+    font-weight: bold; /* Font îngroșat */
+    cursor: pointer; /* Cursor de pointer */
+    transition: background-color 0.3s; /* Tranziție pentru animații */
+}
+
+.search-box button:hover {
+    background-color: #2980b9; /* Albastru mai închis la hover */
+}
+
+/* Weather info styling */
+.weather-info {
+    text-align: left; /* Aliniere la stânga */
+    padding: 10px; /* Padding */
+    border-radius: 10px; /* Colțuri rotunjite */
+    background-color: #f7f7f7; /* Fundal deschis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră ușoară */
+    color: #333; /* Text închis */
+    margin-bottom: 10px; /* Spațiu între secțiuni */
+}
+
+#currentDate{
+    position: fixed;
+    left: 570px;
+    font-size: 0.8em; /* Dimensiune text mică */
+    color: #666; /* Text gri */
+    margin-bottom: 0px; /* Spațiu sub data curentă */
+}
+
