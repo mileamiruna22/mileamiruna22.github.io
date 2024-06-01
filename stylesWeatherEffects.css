@@ -1,0 +1,79 @@
+/* Efect soare */
+.sunny {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, yellow, transparent);
+    border-radius: 50%;
+    animation: sunnyAnimation 5s linear infinite;
+    z-index: -1;
+}
+
+@keyframes sunnyAnimation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Efect ploaie */
+.rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.rain-drop {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background: blue;
+    opacity: 0.5;
+    animation: rainAnimation 1s linear infinite;
+}
+
+@keyframes rainAnimation {
+    0% { top: -10px; }
+    100% { top: 100%; }
+}
+
+/* Efect zăpadă */
+.snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.snow-flake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation: snowAnimation 3s linear infinite;
+}
+
+@keyframes snowAnimation {
+    0% { top: -10px; transform: translateX(0); }
+    100% { top: 100%; transform: translateX(100px); }
+}
+
+/* Efect cer înnorat */
+.cloudy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}

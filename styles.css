@@ -1,4 +1,3 @@
-/* General styling with gradient background */
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +9,7 @@ body {
     justify-content: flex-start; /* Aliniere de sus */
     align-items: center; /* Centrare orizontală */
     overflow: hidden;
+    position: relative; /* Pentru efectele meteo */
 }
 
 /* Container styling with animations */
@@ -87,11 +87,10 @@ h1 {
     margin-bottom: 10px; /* Spațiu între secțiuni */
 }
 
-#currentDate{
+#currentDate {
     position: fixed;
     left: 570px;
     font-size: 0.8em; /* Dimensiune text mică */
     color: #666; /* Text gri */
     margin-bottom: 0px; /* Spațiu sub data curentă */
 }
-

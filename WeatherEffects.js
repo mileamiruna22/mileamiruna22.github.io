@@ -1,10 +1,10 @@
 // Function to show/hide the sun
 function showSun() {
-    document.getElementById('sun').style.display = 'block';
+    document.getElementById('sunny').style.display = 'block';
 }
 
 function hideSun() {
-    document.getElementById('sun').style.display = 'none';
+    document.getElementById('sunny').style.display = 'none';
 }
 
 // Function to show/hide rain
@@ -27,15 +27,28 @@ function hideSnow() {
 
 // Function to darken the background for cloudy weather
 function darkenBackground() {
-    document.body.style.backgroundColor = '#b0c4de';
+    document.getElementById('overlay').style.display = 'block';
 }
 
 function resetBackground() {
-    document.body.style.backgroundColor = 'linear-gradient(135deg, #e0eafc, #cfdef3)';
+    document.getElementById('overlay').style.display = 'none';
 }
+
+
+function handleSearch() {
+    var cityName = document.getElementById('searchInput').value;
+    // Assume getWeatherDescription is a function to get weather description based on city name
+    var weatherDescription = displayForecast(forecast, cityName);
+    displayWeatherEffect(weatherDescription);
+}
+
+// Add event listener for search button click
 
 // Function to display weather effect based on description
 function displayWeatherEffect(description) {
+
+    document.getElementById('searchButton').addEventListener('click', handleSearch);
+    console.log(description);
     hideSun();
     hideRain();
     hideSnow();
@@ -54,6 +67,6 @@ function displayWeatherEffect(description) {
 
 // Function to be called when the document is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-    // Mock function call to demonstrate effect
+    // Example usage of the function
     displayWeatherEffect('clear sky');
 });

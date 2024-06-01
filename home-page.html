@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="stylesMenu.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylesAddToFavButton.css">
-    <link rel="stylesheet" href="stylesArrows.css"> <!-- CSS pentru săgeți -->
-    <!--<link rel="stylesheet" href="weather-icons-wind.css"> CSS pentru căsuța de căutare -->
+    <link rel="stylesheet" href="stylesArrows.css"> 
+   <!-- <link rel="stylesheet" href="stylesWeatherEffects.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
     <script src="loadContent.js"></script> 
     <script src="ShowWeatherDetails.js"></script>
-    <script src="WeatherEffects.js"></script>
+   <!-- <script src="WeatherEffects.js"></script>-->
     
 </head>
 <body>
@@ -39,9 +39,10 @@
         <button id="addToFavorites" class="fav-button">
             <img id="favIcon" src="fav.png" alt="Add to Favorites" width="24" height="24">
         </button>
-        <div class="sun" id="sun"></div> <!-- Sun element -->
-        <div class="rain" id="rain"></div> <!-- Rain element -->
-        <div class="snow" id="snow"></div> <!-- Snow element -->
+        <div id="sunny" class="sunny"></div>
+        <div id="rain" class="rain"></div>
+        <div id="snow" class="snow"></div>
+        <div id="overlay" class="cloudy"></div>
     </div>
 </body>
 </html>
