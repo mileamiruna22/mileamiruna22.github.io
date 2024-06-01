@@ -17,6 +17,5 @@ function loadContent(elementId, url) {
 
 document.addEventListener("DOMContentLoaded", () => {
     loadContent("menu-placeholder", "menu.html");
-   // loadContent("footer-placeholder", "footer.html");
-    //loadContent("favicon-placeholder", "icon.html");
+    loadContent("favicon-placeholder", "icon.html");
 });
