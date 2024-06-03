@@ -10,7 +10,7 @@ body {
 #addToFavorites {
     position: fixed; /* Poziționare fixă */
     bottom: 60px; /* Poziționat la 20px de partea de jos a ecranului */
-    right: 445px; /* Poziționat la 20px de partea dreaptă a ecranului */
+    right: 455px; /* Poziționat la 20px de partea dreaptă a ecranului */
     background: none; /* Fără fundal */
     border: none; /* Fără margine */
     cursor: pointer; /* Cursor pointer pentru interacțiune */

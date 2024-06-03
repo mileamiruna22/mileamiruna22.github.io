@@ -2,7 +2,7 @@
 .clear-button {
     position: fixed; /* Poziționare fixă */
     bottom: 60px; /* Poziționat la 20px de partea de jos a ecranului */
-    right: 445px; /* 20px de la marginea din dreapta */
+    right: 455px; /* 20px de la marginea din dreapta */
     padding: 10px; /* Padding */
     color: rgb(255, 255, 255); /* Text alb */
     border: none; /* Fără margine */
