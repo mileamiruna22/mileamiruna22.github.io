@@ -9,7 +9,7 @@ body {
 /* Buton fix în partea dreaptă jos */
 #addToFavorites {
     position: fixed; /* Poziționare fixă */
-    bottom: 40px; /* Poziționat la 20px de partea de jos a ecranului */
+    bottom: 30px; /* Poziționat la 20px de partea de jos a ecranului */
     right: 465px; /* Poziționat la 20px de partea dreaptă a ecranului */
     background: none; /* Fără fundal */
     border: none; /* Fără margine */
